@@ -9,8 +9,8 @@ const Login = () => {
                     <h1 className="text-4xl mb-6">Crypto Quest</h1>
                     <h2 className="text-xl text-center mb-8">Welcome!<br />Please login to your account</h2>
                     <form className="flex flex-col">
-                        <input type="email" className="p-2 mb-4 rounded border border-gray-400 focus:outline-none focus:border-blue-500" placeholder="Email" />
-                        <input type="password" className="p-2 mb-4 rounded border border-gray-400 focus:outline-none focus:border-blue-500" placeholder="Password" />
+                        <input type="email" className="p-2 mb-4 rounded border border-gray-400 focus:outline-none focus:border-blue-500 text-black" placeholder="Email" />
+                        <input type="password" className="p-2 mb-4 rounded border border-gray-400 focus:outline-none focus:border-blue-500 text-black" placeholder="Password" />
                         <div className="flex items-center mb-4 justify-between">
                             <div>
                                 <input type="checkbox" id="remember-me" className="mr-2" />
